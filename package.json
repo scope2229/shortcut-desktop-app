@@ -1,0 +1,18 @@
+{
+    "name": "shortcut-snap",
+    "version": "1.0.0",
+    "description": "Packaged by Scope2229. This is not an official Shortcut snap.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder --linux snap"
+    },
+    "keywords": [],
+    "author": "Kaine Wright",
+    "devDependencies": {
+        "electron": "^30.0.1",
+        "electron-builder": "^24.13.3",
+        "electron-context-menu": "^3.6.1",
+        "electron-window-state": "^5.0.3"
+    }
+}
